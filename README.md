@@ -14,6 +14,7 @@ A simple Todo list application built using React, Redux Toolkit, Tailwind CSS, a
 8. [Testing](#testing)
 9. [Deployment](#deployment)
 10. [Clone Repository](#clone-repository)
+11. [Folder Structure](#folder-structure)
 
 ## 1. Project Setup
 
