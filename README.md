@@ -2,6 +2,10 @@
 
 A simple Todo list application built using React, Redux Toolkit, Tailwind CSS, and local storage for state persistence.
 
+## Link to the Todo App
+
+[Live Demo](https://todo-app-gqah.onrender.com)
+
 ## Table of Contents
 
 1. [Project Setup](#project-setup)
