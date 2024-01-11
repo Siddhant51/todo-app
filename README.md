@@ -72,6 +72,7 @@ npm install
 
 ## 11. Folder Structure
 
+```bash
 todo-app/
 ├── src/
 │ ├── components/
@@ -90,3 +91,4 @@ todo-app/
 ├── package.json
 ├── tailwind.config.js
 └── README.md
+```
