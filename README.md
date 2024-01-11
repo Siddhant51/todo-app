@@ -14,7 +14,6 @@ A simple Todo list application built using React, Redux Toolkit, Tailwind CSS, a
 8. [Testing](#testing)
 9. [Deployment](#deployment)
 10. [Clone Repository](#clone-repository)
-11. [Install Dependencies](#install-dependencies)
 
 ## 1. Project Setup
 
@@ -70,3 +69,24 @@ git clone https://github.com/Siddhant51/todo-app
 cd todo-app
 npm install
 ```
+
+## 11. Folder Structure
+
+todo-app/
+├── src/
+│ ├── components/
+│ │ ├── Todo.js
+│ │ ├── TodoForm.js
+│ │ └── TodoList.js
+│ ├── redux/
+│ │ └── store.js
+│ │ └── todoSlice.js
+│ ├── index.css
+│ ├── index.js
+│ └── App.js
+├── public/
+│ └── index.html
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+└── README.md
