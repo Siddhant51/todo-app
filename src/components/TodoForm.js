@@ -26,7 +26,7 @@ const TodoForm = () => {
         required
       />
       <button
-        className=" bg-blue-400 text-white py-1 rounded-md w-24"
+        className=" bg-blue-400 text-white py-1  rounded-md w-28"
         type="submit"
       >
         Add Todo
