@@ -16,16 +16,19 @@ const TodoForm = () => {
   };
 
   return (
-    <form className=" bg-slate-200 rounded-lg" onSubmit={handleSubmit}>
+    <form className=" bg-slate-200 rounded-lg flex" onSubmit={handleSubmit}>
       <input
-        className=" focus:outline-none p-1 rounded-lg bg-transparent"
+        className=" w-full focus:outline-none p-1 rounded-lg bg-transparent"
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Add a new todo"
         required
       />
-      <button className=" bg-blue-400 text-white p-1 rounded-md" type="submit">
+      <button
+        className=" bg-blue-400 text-white py-1 rounded-md w-24"
+        type="submit"
+      >
         Add Todo
       </button>
     </form>

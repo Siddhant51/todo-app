@@ -15,17 +15,19 @@ const Todo = ({ todo }) => {
         todo.completed ? "bg-green-300 " : "bg-slate-200"
       }`}
     >
-      <label className="w-full hover:cursor-pointer">
+      <label className=" flex flex-row w-full max-w-80 hover:cursor-pointer">
         <input
           type="checkbox"
           checked={todo.completed}
           onChange={handleToggle}
           className="mx-2"
         />
-        <span className="w-full">{todo.text}</span>
+        <div className=" w-full max-w-80 word-break: break-all">
+          {todo.text}
+        </div>
       </label>
       <button
-        className="bg-red-400 text-white p-1 rounded-md"
+        className=" bg-red-400 h-full text-white py-1 px-2 rounded-md"
         onClick={() => dispatch(removeTodo(todo.id))}
       >
         Remove
